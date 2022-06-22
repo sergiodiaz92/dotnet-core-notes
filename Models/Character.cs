@@ -1,4 +1,4 @@
-namespace dotnet_rpg_5.Models
+namespace dotnet_core_notes.Models
 {
     public class Character
     {

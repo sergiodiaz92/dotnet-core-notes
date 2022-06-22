@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>dotnet_rpg_5</RootNamespace>
+    <RootNamespace>dotnet_core_notes</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

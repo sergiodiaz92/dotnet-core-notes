@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace dotnet_rpg_5
+namespace dotnet_core_notes
 {
     public class Program
     {

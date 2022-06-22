@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
-using dotnet_rpg_5.Data;
-using dotnet_rpg_5.Dtos.Character;
-using dotnet_rpg_5.Models;
+using dotnet_core_notes.Data;
+using dotnet_core_notes.Dtos.Character;
+using dotnet_core_notes.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace dotnet_rpg_5.Services.CharacterService
+namespace dotnet_core_notes.Services.CharacterService
 {
     public class CharacterService : ICharacterService
     {

@@ -2,8 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using dotnet_rpg_5.Data;
-using dotnet_rpg_5.Services.CharacterService;
+using dotnet_core_notes.Data;
+using dotnet_core_notes.Services.CharacterService;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -15,7 +15,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
-namespace dotnet_rpg_5
+namespace dotnet_core_notes
 {
     public class Startup
     {
@@ -33,7 +33,7 @@ namespace dotnet_rpg_5
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "dotnet_rpg_5", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Dotnet Core Notes", Version = "v1" });
             });
             services.AddAutoMapper(typeof(Startup));
             services.AddScoped<ICharacterService,CharacterService>();
@@ -46,7 +46,7 @@ namespace dotnet_rpg_5
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "dotnet_rpg_5 v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "dotnet_core_notes v1"));
             }
 
             app.UseHttpsRedirection();

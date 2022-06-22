@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace dotnet_rpg_5.Migrations
+namespace dotnet_core_notes.Migrations
 {
     public partial class InitialCreate : Migration
     {

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32428.217
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-rpg-5", "dotnet-rpg-5.csproj", "{D070CE6C-8FE9-4FB5-AE55-3F103A08477D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-core-notes", "dotnet-core-notes.csproj", "{D070CE6C-8FE9-4FB5-AE55-3F103A08477D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

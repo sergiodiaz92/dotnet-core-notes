@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using dotnet_rpg_5.Models;
+using dotnet_core_notes.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace dotnet_rpg_5.Data
+namespace dotnet_core_notes.Data
 {
     public class DataContext : DbContext
     {

@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using dotnet_rpg_5.Services.CharacterService;
-using dotnet_rpg_5.Models;
+using dotnet_core_notes.Services.CharacterService;
+using dotnet_core_notes.Models;
 using Microsoft.AspNetCore.Mvc;
-using dotnet_rpg_5.Dtos.Character;
+using dotnet_core_notes.Dtos.Character;
 
-namespace dotnet_rpg_5.Controllers
+namespace dotnet_core_notes.Controllers
 {
     [ApiController]
     [Route("[controller]")]

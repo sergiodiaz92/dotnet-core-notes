@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "dotnet_rpg_5": {
+    "dotnet_core_notes": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

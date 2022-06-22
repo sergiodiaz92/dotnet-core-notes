@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using dotnet_rpg_5.Data;
+using dotnet_core_notes.Data;
 
-namespace dotnet_rpg_5.Migrations
+namespace dotnet_core_notes.Migrations
 {
     [DbContext(typeof(DataContext))]
     [Migration("20220526002859_InitialCreate")]
@@ -20,7 +20,7 @@ namespace dotnet_rpg_5.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.2");
 
-            modelBuilder.Entity("dotnet_rpg_5.Models.Character", b =>
+            modelBuilder.Entity("dotnet_core_notes.Models.Character", b =>
                 {
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd()
